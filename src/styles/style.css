@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    display: flex;
+    height: 56px;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+#logo-and-hamburguer-box{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+#hamburguer-box{
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 4px;
+}
+
+.hamburguer{
+    border: 1.5px solid black;
+    border-radius: 4px;
+    margin: 3px;
+    width: 13px;
+}
+
+#youtube-icon{
+    width: 90px;
+    height: 20px;
+}
+
+#input-search{
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    position: relative;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#search-button{
+    height: 40px;
+    width: 57px;
+    position: relative;
+    top: 10px;
+    background-color: #F8F8F8;
+    margin-left: -4px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+
+    
+}
+
+#search-button img{
+    margin: 0px;
+    width: 24px;
+    height: 24px;
+}
+
+#input-search:focus{
+    outline: none;
+} 
+
+#user-icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
